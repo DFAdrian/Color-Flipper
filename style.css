@@ -1,5 +1,6 @@
 :root{
     --font-family:'Courier New', Courier, monospace;
+    --nav-txt-color:#0007;
 }
 
 *{
@@ -35,7 +36,7 @@ body{
 .menu-nav__title,
 .menu-nav__link{
     font-size: .8rem;
-    color: #0007;
+    color: var(--nav-txt-color);
 }
 
 .main-container{
